@@ -1,0 +1,70 @@
+# .project metadata for LoxiLB
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "loxilb"
+name: "LoxiLB"
+description: "eBPF based cloud-native load-balancer. Powering Kubernetes|Edge|5G|IoT|XaaS Apps."
+type: "project"
+project_lead: "TrekkieCoder" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#loxilb"
+    link: "https://kubernetes.slack.com/messages/loxilb"
+    primary: true
+  - name: "#find-your-workspace-or-org-id"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2024-08-30T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/9" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/loxilb-io/loxilb"
+
+website: "https://loxilb.io"
+
+artwork: "https://landscape.cncf.io/logos/loxilb.svg"
+
+adopters:
+  path: "https://github.com/loxilb-io/loxilb/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "loxilb-io/loxilb"
+
+
+security:
+  policy:
+    path: "https://github.com/loxilb-io/loxilb/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/loxilb-io/loxilb/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/loxilb-io/loxilb/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/loxilb-io/loxilb/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/loxilb-io/loxilb/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/loxilb-io/loxilb/blob/main/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Service Proxy"
+
+# CLOMonitor Score: 79/100
+# Documentation: 98 | License: 86 | Best Practices: 53 | Security: 50
